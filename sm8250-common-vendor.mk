@@ -1231,5 +1231,4 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.lge.hardware.biometrics.fingerprint@2.2-service \
     vendor.qti.gnss@4.0-service
