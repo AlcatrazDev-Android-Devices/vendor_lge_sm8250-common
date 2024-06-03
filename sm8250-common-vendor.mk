@@ -11,6 +11,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sm8250-common/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/lge/sm8250-common/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/lge/sm8250-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/lge/sm8250-common/proprietary/system_ext/etc/permissions/com.lge.ims.httpTxn.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.lge.ims.httpTxn.xml \
+    vendor/lge/sm8250-common/proprietary/system_ext/etc/permissions/com.lge.wfcsupport.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.lge.wfcsupport.xml \
     vendor/lge/sm8250-common/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/lge/sm8250-common/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
     vendor/lge/sm8250-common/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
@@ -48,8 +50,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sm8250-common/proprietary/system_ext/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmframework.so \
     vendor/lge/sm8250-common/proprietary/system_ext/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmtcm.so \
     vendor/lge/sm8250-common/proprietary/system_ext/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfm-hci.so \
+    vendor/lge/sm8250-common/proprietary/system_ext/lib64/libims.lge.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libims.lge.so \
     vendor/lge/sm8250-common/proprietary/system_ext/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimscamera_jni.so \
     vendor/lge/sm8250-common/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
+    vendor/lge/sm8250-common/proprietary/system_ext/lib64/libimsmmpf.lge.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmmpf.lge.so \
     vendor/lge/sm8250-common/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
     vendor/lge/sm8250-common/proprietary/system_ext/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsdm-disp-apis.qti.so \
     vendor/lge/sm8250-common/proprietary/system_ext/lib64/libseccam-ipc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libseccam-ipc.so \
@@ -1090,11 +1094,15 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     QtiTelephonyService \
+    Ims6 \
+    ImsVT \
     qcrilmsgtunnel \
     seccamservice \
     tcmclient \
     audiosphere \
     com.android.hotwordenrollment.common.util \
+    com.lge.ims.httpTxn \
+    com.lge.wfcsupport \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
