@@ -120,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sm8250-common/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-qti \
     vendor/lge/sm8250-common/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
     vendor/lge/sm8250-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-qti \
+    vendor/lge/sm8250-common/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service-cxd22xx:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service-cxd22xx \
     vendor/lge/sm8250-common/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/lge/sm8250-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/lge/sm8250-common/proprietary/vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.2-service \
@@ -227,6 +228,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sm8250-common/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/lge/sm8250-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
     vendor/lge/sm8250-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-cxd22xx.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-cxd22xx.rc \
     vendor/lge/sm8250-common/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/lge/sm8250-common/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/lge/sm8250-common/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -274,6 +276,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sm8250-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/lge/sm8250-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/lge/sm8250-common/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/libnfc-cxd-RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-cxd-RF.conf \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/libnfc-cxd22xx.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-cxd22xx.conf \
     vendor/lge/sm8250-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/lge/sm8250-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/lge/sm8250-common/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
@@ -309,6 +313,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sm8250-common/proprietary/vendor/firmware/a650_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b02 \
     vendor/lge/sm8250-common/proprietary/vendor/firmware/a650_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.elf \
     vendor/lge/sm8250-common/proprietary/vendor/firmware/a650_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.mdt \
+    vendor/lge/sm8250-common/proprietary/vendor/firmware/cxd225x_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cxd225x_firmware.bin \
     vendor/lge/sm8250-common/proprietary/vendor/firmware/htbtfw20.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/htbtfw20.tlv \
     vendor/lge/sm8250-common/proprietary/vendor/firmware/htnv20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/htnv20.bin \
     vendor/lge/sm8250-common/proprietary/vendor/firmware/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn557_fw.so \

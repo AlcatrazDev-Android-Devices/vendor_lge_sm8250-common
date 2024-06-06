@@ -1,0 +1,5 @@
+service vendor.nfc_hal_service-cxd22xx /vendor/bin/hw/android.hardware.nfc@1.2-service-cxd22xx
+    class hal
+    user nfc
+    group nfc
+    disabled
