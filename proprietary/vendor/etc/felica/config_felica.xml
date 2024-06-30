@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Configure>
+    <Autotune num="5" chip_name="CXD2252GG">
+        <!--Default Value-->
+        <!-- <value chipVer="0x01" cmdType="0x0F" device="0x00" period="0x80" periodMultiplesFlag="0x00" swMax="0x3F" frac_r="0x01" frac_n="0x43" frac_k="52429" pll_cpi="0x01" co="0x80" vac_terminal="0x01" timeOut="0xFFFF"/> -->
+        <value period="0x10" periodMultiplesFlag="0x01" frac_n="0x2F" frac_k="15000" vac_terminal="0x00" timeOut="0xFFFF"/>
+        <value period="0x10" periodMultiplesFlag="0x01" frac_n="0x2F" frac_k="45000" vac_terminal="0x00" timeOut="0xFFFF"/>
+        <value period="0x10" periodMultiplesFlag="0x01" frac_n="0x30" frac_k="1000" vac_terminal="0x00" timeOut="0xFFFF"/>
+        <value period="0x10" periodMultiplesFlag="0x01" frac_n="0x30" frac_k="30000" vac_terminal="0x00" timeOut="0xFFFF"/>
+        <value period="0x10" periodMultiplesFlag="0x01" frac_n="0x2D" frac_k="60000" vac_terminal="0x00" timeOut="0xFFFF"/>
+    </Autotune>
+</Configure>

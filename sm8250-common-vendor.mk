@@ -6,6 +6,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lge/sm8250-common
 
 PRODUCT_COPY_FILES += \
+    vendor/lge/sm8250-common/proprietary/product/etc/felica/common.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/common.cfg \
+    vendor/lge/sm8250-common/proprietary/product/etc/felica/mfm.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/mfm.cfg \
+    vendor/lge/sm8250-common/proprietary/product/etc/felica/mfs.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/mfs.cfg \
     vendor/lge/sm8250-common/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/lge/sm8250-common/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/lge/sm8250-common/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
@@ -219,6 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sm8250-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/lge/sm8250-common/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
     vendor/lge/sm8250-common/proprietary/vendor/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/felica/config_felica.xml:$(TARGET_COPY_OUT_VENDOR)/etc/felica/config_felica.xml \
     vendor/lge/sm8250-common/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/lge/sm8250-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/lge/sm8250-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
@@ -278,6 +282,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sm8250-common/proprietary/vendor/etc/libnfc-cxd-RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-cxd-RF.conf \
     vendor/lge/sm8250-common/proprietary/vendor/etc/libnfc-cxd22xx.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-cxd22xx.conf \
     vendor/lge/sm8250-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/PublicKey.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/PublicKey.txt \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_AU.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_AU.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_CA.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_CA.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_CO.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_CO.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_COM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_COM.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_HK.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_HK.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_IL.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_IL.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_JP.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_JP.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_KR.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_KR.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_LDU.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_LDU.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_NZ.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_NZ.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_PL.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_PL.xml \
+    vendor/lge/sm8250-common/proprietary/vendor/etc/nfc/config_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/config_US.xml \
     vendor/lge/sm8250-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/lge/sm8250-common/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
     vendor/lge/sm8250-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
